@@ -1,5 +1,5 @@
-""" Class representing a client
-    """
+""" Class representing a client """
+
 class Client():
 
     def __init__(self, name, last_name, doc_id):
@@ -8,14 +8,12 @@ class Client():
         self.doc_id = doc_id
         self.preexistence = []
 
-    """ Adds a preecistence to a Client
-    """
+    """ Adds a preecistence to a Client """
     def add_preexistence(self, n_Preexistence):
         self.preexistence.append(n_Preexistence)
         return len(self.preexistence) - 1
 
-    """ Adds a preecistence to a Client
-    """    
+    """ Adds a preecistence to a Client """    
     def get_preexistence(self, p_Index):
         if p_Index >= len(self.preexistence):
             return 'There is no such preexistence'
