@@ -7,9 +7,9 @@ class Client():
         self.last_name = last_name
         self.doc_id = doc_id
         self.preexistence = []
-
-    """ Adds a preecistence to a Client """
+    
     def add_preexistence(self, n_Preexistence):
+        """ Adds a preecistence to a Client """
         self.preexistence.append(n_Preexistence)
         return len(self.preexistence) - 1
 
