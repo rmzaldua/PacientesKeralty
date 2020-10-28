@@ -32,5 +32,5 @@ class Paciente():
 
 
 if __name__ == '__main__':
-    client_instance = Paciente('uno', 'dos', '113565')
-    print('User Abbas has been added with id ', client_instance.get_formatted_name())
+    paciente_instance = Paciente('uno', 'dos', '113565')
+    print('User Abbas has been added with id ', paciente_instance.get_formatted_name())
