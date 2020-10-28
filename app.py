@@ -18,7 +18,7 @@ app.config['MONGODB_SETTINGS'] = {
 
 @app.route('/')
 def base():
-    return Response(response=json.dumps({"Status": "up nueva prueba ", 'db_host': config.get(section='database_config', option='host')}),
+    return Response(response=json.dumps({"Status": "up nueva prueba 28-10-2020 ", 'db_host': config.get(section='database_config', option='host')}),
                     status=200,
                     mimetype='application/json')
 
